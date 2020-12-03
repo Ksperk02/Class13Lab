@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grades</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+    <script src="grades.js"></script>
+</head>
+<body>
+<form>
+    <label for="firstName">First Name: </label>
+    <input type="text" name="firstName" id="firstName">
+    <br><br>
+    <label for="lastName">Last Name:</label>
+    <input type="text" name="lastName" id="lastName">
+    <br><br>
+    <label for="pointsEarned">Points Earned:</label>
+    <input type="number" name="pointsEarned" id="pointsEarned">
+    <br><br>
+    <label for="pointsPoss">Points Possible:</label>
+    <input type="number" name="pointsPoss" id="pointsPoss">
+    <br><br>
+    <input type="submit" id="submit">
+</form>
+<br><br>
+
+<span id="name"></span>
+<br>
+<span id="percentage"></span>
+<br>
+<span id="grade"></span>
+<br>
+
+</body>
+</html>
